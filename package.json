@@ -1,0 +1,43 @@
+{
+  "name": "@addons/puppeteer-to-json",
+  "version": "0.0.0-development",
+  "description": "",
+  "private": "false",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "semantic-release": "semantic-release"
+  },
+  "keywords": [
+    "puppeteer",
+    "devDependencies",
+    "projects",
+    "scrapping"
+  ],
+  "author": "Radamantium",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RadamantiumX/puppeteer-to-json"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "@typescript-eslint/eslint-plugin": "^8.14.0",
+    "@typescript-eslint/parser": "^8.14.0",
+    "eslint": "^9.15.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "prettier": "^3.3.3",
+    "semantic-release": "^24.2.0",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.5"
+  },
+  "files": ["dist", "README.md"],
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/RadamantiumX/puppeteer-to-json"
+  },
+  "homepage": "https://github.com/RadamantiumX/puppeteer-to-json"
+}
